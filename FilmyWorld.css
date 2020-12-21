@@ -1,0 +1,477 @@
+/* css for home page*/
+
+body {
+	background: #eeeeee;
+	background-color:#b3b3b3;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.navbar {
+	font-size: 14px;
+	background: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #d6d6d6;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);		
+        
+}
+.navbar .navbar-brand {
+	color: #555;
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+.navbar .navbar-brand b {
+	color: #f04f01;
+}
+.navbar .navbar-nav a {
+	font-size: 96%;
+	font-weight: bold;		
+	text-transform: uppercase;
+}
+.navbar .navbar-nav a.active {
+	color: #f04f01 !important;
+	background: transparent !important;
+}
+.search-box input.form-control, .search-box .btn {
+	font-size: 14px;
+	border-radius: 2px !important;
+}
+.search-box .input-group-append {
+	padding-left: 4px;		
+}
+.search-box input.form-control:focus {
+	border-color: #f04f01;
+	box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn-danger, .search-box .btn-danger:active {
+	font-weight: bold;
+	background: #f04f01 !important;
+	border-color: #f04f01;
+	text-transform: uppercase;
+	min-width: 90px;
+}
+.search-box .btn-danger:hover, .search-box .btn-danger:focus {
+	background: #eb4e01 !important;
+	box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn span {
+	transform: scale(0.9);
+	display: inline-block;
+}
+.navbar .nav-item.open > a {
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu a, .navbar .dropdown-menu a:active {
+	color: #777;
+	padding: 8px 20px;
+	font-size: 13px;
+  	background: #fff;
+}
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus {
+	color: #333;
+  	background: #f8f9fa;
+}
+@media (min-width: 992px){
+	.form-inline .input-group .form-control {
+		width: 225px;			
+	}
+}
+@media (max-width: 992px){
+	.form-inline {
+		display: block;
+	}
+}    
+    
+
+    /* css for login form */
+
+.modal-login {		
+	color: #636363;
+	width: 350px;
+}
+.modal-login .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-login .modal-header {
+	border-bottom: none;   
+	position: relative;
+	justify-content: center;
+}
+.modal-login h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -15px;
+}
+.modal-login .form-control:focus {
+	border-color: #70c5c0;
+}
+.modal-login .form-control, .modal-login .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-login .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}	
+.modal-login .modal-footer {
+	background: #ecf0f1;
+	border-color: #dee4e7;
+	text-align: center;
+	justify-content: center;
+	margin: 0 -20px -20px;
+	border-radius: 5px;
+	font-size: 13px;
+}
+.modal-login .modal-footer a {
+	color: #999;
+}		
+.modal-login .avatar {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -70px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background:  #eb4e01 ;
+	padding: 15px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-login .avatar img {
+	width: 100%;
+}
+.modal-login.modal-dialog {
+	margin-top: 80px;
+}
+.modal-login .btn, .modal-login .btn:active {
+	color: #fff;
+	border-radius: 4px;
+	background: #eb4e01 !important;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	border: none;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+	background: lightgreen !important;
+	outline: none;
+}
+.trigger-btn {
+	display: inline-block;
+	margin: 100px auto;
+}
+
+
+
+/* css for Registration page */
+
+
+
+.registrationpage{
+    color: #fff;
+	background: #63738a;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.form-control {
+	height: 40px;
+	box-shadow: none;
+
+        
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #999d;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+
+
+/* css for slideshow */
+
+	
+
+			.container{
+				position: absolute;
+                                margin-top: 30px;
+                                margin-left:40px;
+				width:100%;
+				height: 150px;
+				
+				
+				
+			}
+
+			.outer{border-radius: 20px;
+				position: absolute;
+				margin-left: 0;
+				margin-right:0;
+				top: 0;
+				animation: animate 16s ease-in-out infinite;
+				width: 100%;
+				height: 150px;
+				background: rgba(0,0,0,0.5);
+				background-size: cover;
+				
+			}
+
+			
+			@keyframes animate{
+				0%,100%{
+					background-image: url("image/img1.jpg");
+                                        background-size: 100% 150px;
+				}
+				25%{
+					background-image: url("image/img2.jpg");
+                                        background-size: 100% 150px;
+				}
+				50%{
+					background-image: url("image/img3.jpg");
+                                        background-size: 100% 150px;
+				}
+				75%{
+					background-image: url("image/img2.jpg");
+                                        background-size: 100% 150px;
+				}
+			}
+                        .smallmessage{
+                            background: lightgreen;
+                            text-align: center;
+                            height: 50px;
+                            width:70%;
+                            margin-top: 10px;
+                            margin-left: 160px;
+                            margin-bottom: 30px;
+                            border-radius: 15px;
+                        }
+                        
+                        .smallmessage label{
+                            color:#ffffff;
+                            font-size: 25px;
+                            font-family: Times new Roman;
+                            padding: 10px;
+                            margin-bottom: 20px;
+                        }
+                        
+                        .myfooter label{
+text-decoration: none;
+color:black;
+     }
+.myfooter {
+ 
+  margin-top: 40px;
+  left: 0;
+  bottom: 0;
+   padding:10px;
+  height:50px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+td{
+height:380px;
+width:200px;
+text-align: center;
+background-color:white;
+
+}
+
+table{
+    border:none;
+    border-collapse: separate;
+    border-spacing: 40px;
+    *border-collapse: expression('separate',CellSpacing='40px');
+      width:auto;
+}
+
+
+
+.movieImages img{
+height:330px;
+width:200px;
+
+}
+
+
+/*css for tags*/
+.tags{
+    margin-top:200px;
+}
+.tags button{
+border-radius:15px;
+background-color:#eb4e01;
+color:#ffffff;
+margin:20px;
+height:30px;
+width:85px;
+text-align:center;
+display:inline-block;
+padding:0px;
+}
+.tags button:hover{
+background-color:lightgreen;
+border:2px solid black;
+}
+.tags button:active{
+background-color:black;
+border:2px solid black;
+}
+
+
+.firstrow button,.secondrow button{
+display:inline-block;
+font-family: Times new Roman;
+margin: 0px;
+padding: 0px;
+
+}
+.firstrow,.secondrow{
+text-align:center;
+margin:0;
+padding:10px;
+
+}
+/*css for downloading link button*/
+.btn-link{
+  border:none;
+  outline:none;
+  background:none;
+  cursor:pointer;
+  color:black;
+  padding:0;
+  text-decoration:none;
+  font-family:Times New Roman;
+  font-size:inherit;
+}
+.btn-link:active{
+  color:#FF0000;
+}
+/*css for tooltip*/
+.nav-item {
+  position: relative;
+  display: inline-block;
+ 
+  
+}
+
+.nav-item .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  width:250px;
+  height:auto;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  margin-top:20px;
+  text-transform: capitalize;
+  font-weight: normal;
+
+}
+
+.nav-item .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 10%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.nav-item:hover .tooltiptext {
+  visibility: visible;
+}
